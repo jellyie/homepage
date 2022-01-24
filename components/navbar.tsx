@@ -12,6 +12,7 @@ const LinkObj: React.FunctionComponent<Props> = ({ children, href, path }) => {
   return (
     <NextLink href={href as string} passHref>
       <Link
+        letterSpacing='wide'
         textAlign='center'
         fontSize='16px'
         color={active ? 'black' : '#C4C4C4'}

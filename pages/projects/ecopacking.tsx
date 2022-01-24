@@ -27,6 +27,7 @@ import journey from '@/images/ecopacking/journey.png'
 import quiz from '@/images/ecopacking/quiz.png'
 import results from '@/images/ecopacking/results.png'
 import match from '@/images/ecopacking/match.png'
+import prototype from '@/images/ecopacking/prototype.png'
 
 const Project: NextPage = () => {
   return (
@@ -174,7 +175,7 @@ const Project: NextPage = () => {
 
             <Section>
               <Text variant='h1'>Design Components</Text>
-              <Text variant='body' as='i'>
+              <Text variant='h3' as='i'>
                 &quot;I am always missing information when trying to make
                 sustainable decisions.&quot;
               </Text>
@@ -229,7 +230,7 @@ const Project: NextPage = () => {
                 brand.
               </Text>
 
-              <ImageRect src={banner} alt='' />
+              <ImageRect src={prototype} alt='' border='0px' />
               <Button
                 justifySelf='center'
                 alignSelf='center'

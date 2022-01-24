@@ -12,17 +12,17 @@ const Home: NextPage = () => {
     <Layout>
       <Stack as='main' justify='center' align='center' py={24}>
         <Box alignItems='center' w='full' display='flex' flexDir='column'>
-          <Stack maxW='container.lg' spacing={85}>
+          <Stack maxW='container.lg' align='center' spacing={85}>
             {/******* Ojective Statement Block *******/}
 
             <Section>
-              <Box justifyContent='center' alignItems='center' maxW='688px'>
+              <Stack w='full' maxW='688px' alignSelf='center'>
                 <Text variant='objective' py={42}>
                   Hi, I&apos;m Irene! I&apos;m a UX designer interested in
                   designing empowering, memorable, and inclusive digital
                   experiences.
                 </Text>
-              </Box>
+              </Stack>
             </Section>
 
             {/******* Project Block *******/}

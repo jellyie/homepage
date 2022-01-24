@@ -4,6 +4,7 @@ import Image from 'next/image'
 type Props = {
   src: StaticImageData
   alt?: string
+  border?: string
 }
 
 const ImageBox: React.FunctionComponent<Props> = ({ src, alt }) => {
@@ -31,7 +32,11 @@ const ImageBox: React.FunctionComponent<Props> = ({ src, alt }) => {
   )
 }
 
-const ImageRect: React.FunctionComponent<Props> = ({ src, alt }) => {
+const ImageRect: React.FunctionComponent<Props> = ({
+  src,
+  alt,
+  border = '1px'
+}) => {
   return (
     <>
       <Box
@@ -40,7 +45,7 @@ const ImageRect: React.FunctionComponent<Props> = ({ src, alt }) => {
         overflow='hidden'
         width={{ base: 'full', md: '820px' }}
         borderRadius='lg'
-        border='1px'
+        border={border}
         borderColor='gray.100'
       >
         <Image
