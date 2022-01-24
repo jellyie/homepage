@@ -97,7 +97,7 @@ const Project: NextPage = () => {
             <Section>
                 <Text variant='h1'>Meet Taylor.</Text>
                 <Text variant='body'>
-                  Taylor is a small craft business owner who&apos;s making the
+                  Taylor is a 24 year old freelance illustrator, and small craft business owner who&apos;s making the
                   move to a digital storefront. Taylor traditionally sells her
                   small handmade ceramic homeware at local pop-up markets, and
                   she has been receiving requests on her Instagram page from
@@ -120,7 +120,7 @@ const Project: NextPage = () => {
                   So... what&apos;s Taylor&apos;s problem exactly?
                 </Text>
                 <Text variant='body'>
-                  Taylor, like other small craft business owners, lack the
+                  Taylor, like other small craft business owners, lacks the
                   support that larger businesses have when it comes to sourcing
                   sustainable materials. This is a multifold issue because she
                   also lacks the resources to learn about which sustainable
