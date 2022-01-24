@@ -38,7 +38,7 @@ const ImageRect: React.FunctionComponent<Props> = ({ src, alt }) => {
         display='block'
         position='relative'
         overflow='hidden'
-        width='820px'
+        width={{base: 'full', md: '820px'}}
         borderRadius='lg'
         border='1px'
         borderColor='gray.100'

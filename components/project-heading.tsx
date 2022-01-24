@@ -1,4 +1,4 @@
-import { Box, Divider, HStack, Stack, Text } from '@chakra-ui/react'
+import { Box, Divider, Stack, Text } from '@chakra-ui/react'
 import { ImageRect } from './imagebox'
 
 type Props = {
@@ -29,7 +29,7 @@ const ProjectHeader: React.FunctionComponent<Props> = ({
         <ImageRect src={src} alt={alt} />
         <Box pt={8}>
           <Divider />
-          <HStack p={8} spacing={25} align='center' justify='space-between'>
+          <Stack direction={{base: 'column', md: 'row'}} p={8} spacing={25} align={{ base: 'start', md: 'center'}} justify='space-between'>
             <Stack>
               <Text variant='h3'>Timeline</Text>
               <Text variant='subtitle'>{timeline}</Text>
@@ -46,7 +46,7 @@ const ProjectHeader: React.FunctionComponent<Props> = ({
               <Text variant='h3'>Platform</Text>
               <Text variant='subtitle'>{platform}</Text>
             </Stack>
-          </HStack>
+          </Stack>
           <Divider />
         </Box>
       </Stack>

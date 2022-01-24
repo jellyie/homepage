@@ -30,7 +30,7 @@ const Project: NextPage = () => {
     <Layout title='EcoPacking'>
       <Stack as='main' align='center' justify='center' py={24}>
         <Box display='flex' flexDir='column' alignItems='center' w='full'>
-          <Stack maxW='820px' spacing={85}>
+          <Stack maxW={{ md: '820px'}}  w='full' spacing={85}>
             {/****** Header ******/}
 
             <ProjectHeader
@@ -46,7 +46,6 @@ const Project: NextPage = () => {
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Sustainability is complicated.</Text>
                 <Text variant='body'>
                   Many businesses are beginning to see the value of aligning
@@ -63,13 +62,11 @@ const Project: NextPage = () => {
                     but they don&apos;t know how to achieve this.
                   </Text>{' '}
                 </Text>
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Who are these small business owners?</Text>
                 <UnorderedList spacing={2} listStyleType='none'>
                   <ListItem>
@@ -94,12 +91,10 @@ const Project: NextPage = () => {
                     </Text>{' '}
                   </ListItem>
                 </UnorderedList>
-              </Stack>
             </Section>
 
             {/****** Section ******/}
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Meet Taylor.</Text>
                 <Text variant='body'>
                   Taylor is a small craft business owner who&apos;s making the
@@ -109,22 +104,18 @@ const Project: NextPage = () => {
                   fans across the country who are asking to purchase her
                   products.{' '}
                 </Text>
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Taylor&apos;s User Journey</Text>
                 <ImageRect src={journey} alt='' />
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>
                   So... what&apos;s Taylor&apos;s problem exactly?
                 </Text>
@@ -136,13 +127,11 @@ const Project: NextPage = () => {
                   materials best fit her needs and besides, she’s running a
                   one-woman show. Who has time to do that?
                 </Text>
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Brainstorming ideas</Text>
                 <Text variant='body'>
                   I worked with my team in a brainstorming session where we
@@ -151,13 +140,11 @@ const Project: NextPage = () => {
                   and a task analysis of the order fulfillment process.
                 </Text>
                 <ImageRect src={brainstorm} alt='' />
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Concepting</Text>
                 <Text variant='body'>
                   Once we gathered feedback on the concept, we decided to move
@@ -167,13 +154,11 @@ const Project: NextPage = () => {
 
                 <ImageRect src={sketch1} alt='' />
                 <ImageRect src={sketch2} alt='' />
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>Building... the building blocks!</Text>
                 <Text variant='body'>Logo</Text>
                 <ImageRect src={logo} alt='' />
@@ -183,13 +168,11 @@ const Project: NextPage = () => {
                 <ImageRect src={color_3} alt='' />
                 <Text variant='body'>Design Components</Text>
                 <ImageRect src={components} alt='' />
-              </Stack>
             </Section>
 
             {/****** Section ******/}
 
             <Section>
-              <Stack spacing={12}>
                 <Text variant='h1'>High-Fidelity Prototype</Text>
                 <Text variant='body'>
                   Craft business owners want to feel confident in the
@@ -218,7 +201,6 @@ const Project: NextPage = () => {
                     </Text>
                   </Link>
                 </Button>
-              </Stack>
             </Section>
           </Stack>
         </Box>

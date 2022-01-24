@@ -52,12 +52,13 @@ const ProjectBlock: React.FunctionComponent<Props> = ({
 const Section: React.FunctionComponent = ({ children }) => {
   return (
     <Stack
-      direction={{ base: 'column', md: 'row' }}
-      maxW='full'
+      direction={{ base: 'column' }}
+      w='full'
+      maxW='820px'
       minH='510px'
-      spacing={8}
+      spacing={12}
       justify='center'
-      align='center'
+      align='start'
     >
       {children}
     </Stack>
