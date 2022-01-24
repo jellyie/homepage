@@ -32,7 +32,7 @@ const components = {
       },
       objective: {
         fontSize: 38,
-        fontWeight: 600,
+        fontWeight: 'bold',
         lineHeight: '51.83px',
         textAlign: 'center'
       },

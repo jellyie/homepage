@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
             <Section>
               <Stack w='full' maxW='688px' alignSelf='center'>
-                <Text variant='objective' py={42}>
+                <Text variant='objective' fontWeight='bold' py={42}>
                   Hi, I&apos;m Irene! I&apos;m a UX designer interested in
                   designing empowering, memorable, and inclusive digital
                   experiences.
