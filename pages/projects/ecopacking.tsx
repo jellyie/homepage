@@ -175,7 +175,7 @@ const Project: NextPage = () => {
 
             <Section>
               <Text variant='h1'>Design Components</Text>
-              <Text variant='h3' as='i'>
+              <Text variant='body' as='i'>
                 &quot;I am always missing information when trying to make
                 sustainable decisions.&quot;
               </Text>
