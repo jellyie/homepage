@@ -2,7 +2,7 @@ import { Box, Heading, HStack, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 type Props = {
-  href: string
+  href?: string
   path: string
 }
 
@@ -10,7 +10,7 @@ const LinkObj: React.FunctionComponent<Props> = ({ children, href, path }) => {
   const active = path === href
 
   return (
-    <NextLink href={href} passHref>
+    <NextLink href={href as string} passHref>
       <Link
         textAlign='center'
         fontSize='16px'
