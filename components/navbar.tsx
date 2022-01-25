@@ -14,7 +14,7 @@ const LinkObj: React.FunctionComponent<Props> = ({ children, href, path }) => {
       <Link
         letterSpacing='wide'
         textAlign='center'
-        fontSize='16px'
+        fontSize={{ base: 12, md: 16 }}
         color={active ? 'black' : '#C4C4C4'}
         fontWeight={active ? 'semibold' : 'normal'}
       >
@@ -25,14 +25,14 @@ const LinkObj: React.FunctionComponent<Props> = ({ children, href, path }) => {
 }
 const Navbar: React.FunctionComponent<Props> = ({ path }) => {
   return (
-    <Box w='full' h='28px' pos='sticky' p={8}>
+    <Box w='full' h='28px' pos='fixed' zIndex='1' p={8}>
       <HStack justify='space-between' align='center' mx={16}>
         <LinkObj href='/' path={path}>
           Portfolio
         </LinkObj>
         <NextLink href='/' passHref>
           <Link>
-            <Heading textAlign='center' fontSize='24px'>
+            <Heading textAlign='center' fontSize={{ base: 20, md: 24 }}>
               IRENE ONG
             </Heading>
           </Link>

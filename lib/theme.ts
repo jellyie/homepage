@@ -20,45 +20,44 @@ const components = {
     variants: {
       title: {
         fontFamily: 'Yeseva One',
-        fontSize: 36,
+        fontSize: { base: 26, md: 36 },
         fontWeight: 400,
         lineHeight: '41.58px'
       },
       subtitle: {
-        fontSize: 24,
+        fontSize: { base: 18, md: 24 },
         fontWeight: 300,
         color: '#646262',
         lineHeight: '32.74px'
       },
       objective: {
-        fontSize: 38,
-        fontWeight: 'bold',
-        lineHeight: '51.83px',
+        fontSize: { base: 28, md: 38 },
+        fontWeight: 800,
         textAlign: 'center'
       },
       link: {
-        fontSize: 18,
+        fontSize: { base: 16, md: 18 },
         fontWeight: 600,
         lineHeight: '24.55px',
         color: '#646262'
       },
       h1: {
-        fontSize: 32,
+        fontSize: { base: 20, md: 32 },
         fontWeight: 600,
         lineHeight: '51.83px'
       },
       h2: {
-        fontSize: 28,
+        fontSize: { base: 18, md: 28 },
         fontWeight: 600,
         lineHeight: '38px'
       },
       h3: {
-        fontSize: 24,
+        fontSize: { base: 16, md: 24 },
         fontWeight: 700,
         lineHeight: '32.74px'
       },
       body: {
-        fontSize: 24,
+        fontSize: { base: 14, md: 22 },
         fontWeight: 300,
         textAlign: 'left',
         lineHeight: '32.75px',
