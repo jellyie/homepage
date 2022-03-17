@@ -41,7 +41,7 @@ const About: NextPage = () => {
                 ways of interacting with technology, but outside of the design
                 space, I enjoy translating things (KOR › ENG), laying around
                 with my dog 🐕, reading graphic novels or nonfiction 📚, and
-                building things like vivariums 🪴, mechanical keyboards ⌨️,.
+                building things like vivariums 🪴, mechanical keyboards ⌨️,
               </Text>
 
               <Box background='gray.50' borderRadius='lg' p={4}>
@@ -71,7 +71,7 @@ const About: NextPage = () => {
 
                   <ListItem>
                     <Link
-                      href='https://drive.google.com/file/d/1huRVnczfvty3jE0KCMfFCpWlzKAQOGED/view?usp=sharing'
+                      href='https://drive.google.com/file/d/1-0md0yRYoJNnlQuP67XAGY_gNsl7FmrH/view?usp=sharing'
                       isExternal
                     >
                       <Text variant='body'>Google Drive link to my resume</Text>

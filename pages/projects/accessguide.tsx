@@ -14,7 +14,7 @@ const Project: NextPage = () => {
           h='60vh'
           w='full'
         >
-          <Text variant='h1'>This page isn&apos;t ready yet...</Text>
+          <Text variant='h1'>This page is coming soon...</Text>
         </Box>
       </Stack>
     </Layout>
