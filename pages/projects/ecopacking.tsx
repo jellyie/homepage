@@ -163,9 +163,9 @@ const Project: NextPage = () => {
 
             <Section>
               <Text variant='h1'>Building... the building blocks!</Text>
-              <Text variant='body'>Logo</Text>
+              <Text variant='h3'>Brand Logo</Text>
               <ImageRect src={logo} alt='' />
-              <Text variant='body'>Color System</Text>
+              <Text variant='h3'>Color System</Text>
               <ImageRect src={color} alt='' />
               <ImageRect src={color_2} alt='' />
               <ImageRect src={color_3} alt='' />

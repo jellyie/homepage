@@ -25,19 +25,19 @@ const components = {
         lineHeight: '41.58px'
       },
       subtitle: {
-        fontSize: { base: 18, md: 24 },
+        fontSize: { base: 16, md: 20 },
         fontWeight: 300,
         color: '#646262',
         lineHeight: '32.74px'
       },
       objective: {
         fontSize: { base: 28, md: 38 },
-        fontWeight: 800,
+        fontWeight: 200,
         textAlign: 'center'
       },
       link: {
         fontSize: { base: 16, md: 18 },
-        fontWeight: 600,
+        fontWeight: 300,
         lineHeight: '24.55px',
         color: '#646262'
       },
@@ -57,8 +57,8 @@ const components = {
         lineHeight: '32.74px'
       },
       body: {
-        fontSize: { base: 14, md: 22 },
-        fontWeight: 300,
+        fontSize: { base: 14, md: 20 },
+        fontWeight: 100,
         textAlign: 'left',
         lineHeight: '32.75px',
         letterSpacing: 'tight'

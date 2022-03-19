@@ -6,15 +6,29 @@ import {
   Box,
   UnorderedList,
   ListItem,
-  Link
+  Link,
+  Image,
+  ListIcon
 } from '@chakra-ui/react'
+import {
+  RiArticleLine,
+  RiGithubFill,
+  RiLinkedinBoxLine,
+  RiMailSendFill
+} from 'react-icons/ri'
 
 const About: NextPage = () => {
   return (
     <>
       <Layout title='About'>
         <Stack as='main' align='center' justify='center' py={24}>
-          <Box display='flex' flexDir='column' alignItems='center' w='full'>
+          <Box
+            display='flex'
+            flexDir='column'
+            mt={10}
+            alignItems='center'
+            w='full'
+          >
             <Stack spacing={16} maxW='688px'>
               <Text variant='body'>
                 Hi there! I’m Irene and I am currently pursuing a masters in
@@ -44,40 +58,73 @@ const About: NextPage = () => {
                 building things like vivariums 🪴, mechanical keyboards ⌨️,
               </Text>
 
-              <Box background='gray.50' borderRadius='lg' p={4}>
-                <Text variant='h3' pb={6}>
-                  Links and other stuff you might be interested in:
-                </Text>
-                <UnorderedList spacing={2} m={0} listStyleType='none'>
-                  <ListItem>
-                    <Text variant='body'>
-                      Best way to contact me: irene@gatech.edu
-                    </Text>
-                  </ListItem>
-                  <ListItem>
-                    <Link
-                      href='https://www.linkedin.com/in/ireneong3441'
-                      isExternal
-                    >
-                      <Text variant='body'>LinkedIn: @ireneong3441</Text>
-                    </Link>
-                  </ListItem>
+              <Box
+                background='gray.50'
+                flexDir='row'
+                alignItems='center'
+                display='flex'
+                borderRadius='lg'
+                p={4}
+              >
+                <Image
+                  src='/avatar.png'
+                  boxSize='275px'
+                  objectFit='cover'
+                  borderRadius='lg'
+                  mx={5}
+                  alt='Avatar'
+                />
+                <Stack maxW='xl'>
+                  <Text
+                    fontWeight='bold'
+                    fontSize={{ base: 14, md: 20 }}
+                    letterSpacing='tight'
+                    lineHeight='32.75px'
+                    pb={6}
+                  >
+                    Connect with me!
+                  </Text>
+                  <UnorderedList spacing={5} m={0} listStyleType='none'>
+                    <ListItem>
+                      <Text fontSize={{ base: 12, md: 17 }}>
+                        <ListIcon as={RiMailSendFill} />
+                        Best way to contact me: irene@gatech.edu
+                      </Text>
+                    </ListItem>
+                    <ListItem>
+                      <Link
+                        href='https://www.linkedin.com/in/ireneong3441'
+                        isExternal
+                      >
+                        <Text fontSize={{ base: 12, md: 17 }}>
+                          <ListIcon as={RiLinkedinBoxLine} />
+                          @ireneong3441
+                        </Text>
+                      </Link>
+                    </ListItem>
 
-                  <ListItem>
-                    <Link href='https://github.com/jellyie' isExternal>
-                      <Text variant='body'>Github @ireneong3441</Text>
-                    </Link>
-                  </ListItem>
+                    <ListItem>
+                      <Link href='https://github.com/jellyie' isExternal>
+                        <Text fontSize={{ base: 12, md: 17 }}>
+                          <ListIcon as={RiGithubFill} />
+                          @ireneong3441
+                        </Text>
+                      </Link>
+                    </ListItem>
 
-                  <ListItem>
-                    <Link
-                      href='https://drive.google.com/file/d/1-0md0yRYoJNnlQuP67XAGY_gNsl7FmrH/view?usp=sharing'
-                      isExternal
-                    >
-                      <Text variant='body'>Google Drive link to my resume</Text>
-                    </Link>
-                  </ListItem>
-                </UnorderedList>
+                    <ListItem>
+                      <Link
+                        href='https://drive.google.com/file/d/1-0md0yRYoJNnlQuP67XAGY_gNsl7FmrH/view?usp=sharing'
+                        isExternal
+                      >
+                        <Text fontSize={{ base: 12, md: 17 }}>
+                          <ListIcon as={RiArticleLine} />
+                          Download my resume
+                        </Text>
+                      </Link>
+                    </ListItem>
+                  </UnorderedList>
+                </Stack>
               </Box>
             </Stack>
           </Box>

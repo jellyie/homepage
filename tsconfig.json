@@ -23,7 +23,7 @@
       "@/layouts/*": ["components/layouts/*"],
       "@/images/*": ["public/*", "public/images/*"],
       "@/images/accessguide/*": ["public/images/accessguide/*"],
-      "@/images/drawablenotes/*": ["public/images/drawablenotes/*"],
+      "@/images/payday/*": ["public/images/payday/*"],
       "@/images/ecopacking/*": ["public/images/ecopacking/*"]
     }
   },

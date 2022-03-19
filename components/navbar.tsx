@@ -16,7 +16,7 @@ const LinkObj: React.FunctionComponent<Props> = ({ children, href, path }) => {
         textAlign='center'
         fontSize={{ base: 12, md: 16 }}
         color={active ? 'black' : '#C4C4C4'}
-        fontWeight={active ? 'semibold' : 'normal'}
+        fontWeight={active ? 'light' : 'normal'}
       >
         {children}
       </Link>
