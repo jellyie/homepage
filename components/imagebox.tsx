@@ -54,6 +54,8 @@ const ImageRect: React.FunctionComponent<Props> = ({
           layout='responsive'
           objectFit='contain'
           loading='eager'
+          placeholder='blur'
+          priority={true}
         />
       </Box>
     </>
