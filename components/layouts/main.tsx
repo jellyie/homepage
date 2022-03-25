@@ -23,7 +23,7 @@ const Main: React.FunctionComponent<Router> = ({ children, router }) => {
       </Head>
 
       <Navbar path={router.asPath} />
-      <Container maxW='container.lg'>{children}</Container>
+      <Container maxW='container.xl'>{children}</Container>
       <Footer />
     </Box>
   )

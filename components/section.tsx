@@ -54,7 +54,7 @@ const Section: React.FunctionComponent = ({ children }) => {
     <Stack
       direction={{ base: 'column' }}
       w='full'
-      maxW='820px'
+      maxW='875px'
       minH='510px'
       spacing={12}
       justify='center'

@@ -9,6 +9,7 @@ type Props = {
   role: string
   deliverable: string
   platform: string
+  border?: string
 }
 
 const ProjectHeader: React.FunctionComponent<Props> = ({
@@ -18,15 +19,16 @@ const ProjectHeader: React.FunctionComponent<Props> = ({
   timeline,
   role,
   deliverable,
-  platform
+  platform,
+  border = '1px'
 }) => {
   return (
     <>
-      <Stack maxW='808px'>
+      <Stack maxW='875px' pt={12} pb={6}>
         <Text variant='title' minH='124px'>
           {title}
         </Text>
-        <ImageRect src={src} alt={alt} />
+        <ImageRect src={src} alt={alt} border={border} />
         <Box pt={8}>
           <Divider />
           <Stack

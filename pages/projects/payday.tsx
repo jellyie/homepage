@@ -36,7 +36,7 @@ const Project: NextPage = () => {
     <Layout title='Payday'>
       <Stack as='main' align='center' justify='center' py={24}>
         <Box display='flex' flexDir='column' alignItems='center' w='full'>
-          <Stack maxW={{ md: '820px' }} w='full' spacing={85}>
+          <Stack w='full' alignItems='center' spacing={85}>
             {/****** Header ******/}
 
             <ProjectHeader

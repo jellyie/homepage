@@ -30,6 +30,13 @@ const components = {
         color: '#646262',
         lineHeight: '32.74px'
       },
+      sm: {
+        fontSize: { base: 12, md: 14 },
+        fontWeight: 100,
+        color: '#9F9F9F',
+        lineHeight: '32.74px',
+        letterSpacing: 'tight'
+      },
       objective: {
         fontSize: { base: 28, md: 38 },
         fontWeight: 200,
@@ -57,7 +64,7 @@ const components = {
         lineHeight: '32.74px'
       },
       body: {
-        fontSize: { base: 14, md: 20 },
+        fontSize: { base: 16, md: 20 },
         fontWeight: 100,
         textAlign: 'left',
         lineHeight: '32.75px',
